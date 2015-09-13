@@ -320,9 +320,9 @@ def v4iv():
     print "3. " + "And lose, and start again at your beginnings\n    And never breathe a word about your loss;"
     print "4. " + "Or watch the things you gave your life to, broken,\n    And stoop and build ’em up with worn-out tools:"
     v4iv_choice = raw_input("What's the fourth phrase?\n1,2,3,4? ")
-    if v4iv_choice == "4":
+    if v4iv_choice == "2":
     	print "Correct!\n"
-    elif v4iv_choice == "1" or "2" or "3":
+    elif v4iv_choice == "1" or "3" or "4":
     	print "Sorry, try again!"
     	v4iv()
 v4iv()
